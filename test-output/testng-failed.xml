@@ -3,17 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.TC001_CreateLead">
+      <class name="tests.BankBazar">
         <methods>
           <include name="stopResult"/>
-          <include name="close"/>
           <include name="startResult"/>
-          <include name="setData"/>
-          <include name="createLead"/>
           <include name="startTestCase"/>
-          <include name="login"/>
+          <include name="setData"/>
+          <include name="BankBazar1"/>
         </methods>
-      </class> <!-- testcases.TC001_CreateLead -->
+      </class> <!-- tests.BankBazar -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
